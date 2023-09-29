@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Email Subscribe</title>
+</head>
+<body>
+   <!--Background container-->
+   <div class="flex items-center justify-center h-screen bg-zinc-700">
+    <!--Card-->
+    <div class="bg-zinc-800 p-2 m-6 rounded-2xl">
+     <!--flex container-->
+     <div class="flex flex-col-reverse md:flex-row rounded-l-xl">
+        <!--Image-->
+        <img src="./images/image.jpg" alt="edamae"
+        class="onject-fit rounded-xl h-80 md:h-64 md:rounded-l-xl md:rounded-r-none transform hover:scale-105 hover:roundex-xl duration-200" />
+        <!--content-->
+        <div class="p-6 md: p-12">
+            <h2 class="font-serif text-xl font-medium text-center text-white md:text-left md:font-bold" >
+                Get Diet and fitness tips in your inbox
+            </h2>
+            <p class="font-serif max-w-xs my-4 text-xs leading-5 tracking-wide text-center text-white md:text-left">
+                Your body is a machine. And, like all machines, it needs the right fuel to run well — especially if you are active. But what foods should you eat to benefit your workout? 
+            </p>
+            <div class="flex flex-col mt-5 space-y-4 md:space-x-3 md:flex-row md:space-y-0">
+                <input type="text" placeholder="Enter Email address" class="p-2 px-4 text-center text-white bg-zinc-800 border border-zinc-600 placeholder:text-xs placeholder:text-center md:text-left placeholder:md:text-left focus:outline-none"/>
+                <button class="px-5 py-3 text-xs rounded-md text-zinc-800 bg-lime-500 hover:bg-lime-700 hover:text-white duration-500">Subscribe</button>
+            </div>
+            <div class="flex flex-col space-y-auto mt-5 md:flex-row md:w-full">
+                <button class="py-2 px-5 text-lg bg-orange-600 rounded-lg text-white md:flex-row md:w-full hover:bg-green-200 hover:text-black duration-500">Purchase for $20.00</button>
+            </div>
+        </div>
+     </div>
+    </div>
+   </div>
+</body>
+</html>
